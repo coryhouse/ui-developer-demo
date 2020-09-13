@@ -1,0 +1,25 @@
+{
+  "name": "ui-developer-demo",
+  "version": "1.0.0",
+  "description": "Simple app to convey a day in the life of a UI developer",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coryhouse/ui-developer-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coryhouse/ui-developer-demo/issues"
+  },
+  "homepage": "https://github.com/coryhouse/ui-developer-demo#readme"
+}

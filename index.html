@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background-color: gainsboro;
+      }
+
+      button {
+        background-color: lightblue;
+        color: darkblue;
+        border: solid 1px darkgrey;
+      }
+    </style>
+    <script type="ja">
+      function sayHi() {
+        alert("hi");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>My app</h1>
+    <label>Enter your name:</label>
+    <input type="text" id="name" />
+    <button onclick="alert('hi ' + document.getElementById('name').value);">
+      Say my name!
+    </button>
+  </body>
+</html>
