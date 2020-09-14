@@ -14,18 +14,18 @@
         border: solid 1px darkgrey;
       }
     </style>
-    <script type="ja">
+    <script>
       function sayHi() {
-        alert("hi");
+        const name = document.getElementById("name").value;
+        document.getElementById("message").innerHTML = "Hi " + name;
       }
     </script>
   </head>
   <body>
-    <h1>My app</h1>
-    <label>Enter your name:</label>
+    <h1>My App</h1>
+    <label for="name">Enter your name:</label>
     <input type="text" id="name" />
-    <button onclick="alert('hi ' + document.getElementById('name').value);">
-      Say my name!
-    </button>
+    <button onclick="sayHi()">Say my name!</button>
+    <div id="message"></div>
   </body>
 </html>
